@@ -8,7 +8,11 @@
 
 ![report_table](https://github.com/nikita55612/mpsEx/blob/main/assets/report_table.png)
 
+При обновлении отчета система автоматически сравнивает новые данные с предыдущими. Если цена товара изменилась, этот товар добавляется в отдельную таблицу изменений, что позволяет легко отслеживать динамику цен.
+
 ![report_chTable](https://github.com/nikita55612/mpsEx/blob/main/assets/report_chTable.png)
+
+Расширение поддерживает встраивание HTML-разметки на страницы каталогов Ozon и Wildberries для прямого парсинга.
 
 ![oz_is](https://github.com/nikita55612/mpsEx/blob/main/assets/oz_is.png)
 
