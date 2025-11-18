@@ -1,7 +1,8 @@
 # mpsEx
 
 Расширение Google Chrome для парсинга каталогов Ozon и Wildberries.
-<br>
+
+---
 
 ![popup](https://github.com/nikita55612/mpsEx/blob/main/assets/ex_input_menu.png)
 
@@ -20,6 +21,7 @@
 - Переходим [chrome://extensions/](chrome://extensions/)
 - Включаем режим разработчика
 - Загружаем расширение .../mpsEx
-<br>
+
+---
 
 ![extensions](https://github.com/Nikita55612/OzonReviewParserExtension/blob/main/screenshots/Screenshot3.png)

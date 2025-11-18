@@ -1,5 +1,4 @@
-// import Parser from "./parser.js";
-import Parser from "./parser_v2.js";
+import Parser from "./parser.js";
 
 async function renderReport(result, active = true) {
 	const tab = await chrome.tabs.create({

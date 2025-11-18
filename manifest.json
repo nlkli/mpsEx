@@ -1,44 +1,44 @@
 {
-	"name": "mpsEx",
-	"description": "Парсер каталогов тоговых площадок Ozon и Wildberries",
-	"version": "1.1",
-	"manifest_version": 3,
-	"action": {
-		"default_popup": "popup.html",
-		"default_icon": {
-			"16": "icons/icon16.png",
-			"24": "icons/icon24.png",
-			"32": "icons/icon32.png",
-			"48": "icons/icon48.png",
-			"128": "icons/icon128.png"
-		}
-	},
-	"background": {
-		"service_worker": "background.js",
-		"type": "module"
-	},
-	"permissions": [
-		"scripting",
-		"tabs",
-		"webRequest"
-	],
-	"host_permissions": [
-		"*://www.ozon.ru/*",
-		"*://u-catalog.wb.ru/*/catalog*",
-		"*://catalog.wb.ru/*/catalog*",
-		"*://u-search.wb.ru/*/search*",
-		"*://search.wb.ru/*/search*",
-		"*://www.wildberries.ru/*"
-	],
-	"web_accessible_resources": [
-		{
-			"resources": [
-				"icons/icon128.png"
-			],
-			"matches": [
-				"*://www.ozon.ru/*",
-				"*://www.wildberries.ru/*"
-			]
-		}
-	]
+    "name": "mpsEx",
+    "description": "Парсер каталогов тоговых площадок Ozon и Wildberries",
+    "version": "1.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "24": "icons/icon24.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "scripting",
+        "tabs",
+        "webRequest"
+    ],
+    "host_permissions": [
+        "*://www.ozon.ru/*",
+        "*://u-catalog.wb.ru/*/catalog*",
+        "*://catalog.wb.ru/*/catalog*",
+        "*://u-search.wb.ru/*/search*",
+        "*://search.wb.ru/*/search*",
+        "*://www.wildberries.ru/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "icons/icon128.png"
+            ],
+            "matches": [
+                "*://www.ozon.ru/*",
+                "*://www.wildberries.ru/*"
+            ]
+        }
+    ]
 }

@@ -25,16 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		status.textContent = "Загрузка...";
 		status.style.color = "green";
 
-		let lines = [...new Set(inputQuery.value.trim().split("\n"))];
+		let lines = [...new Set(inputQuery.value.trim().split("\n"))].map((v) => v.trim()).filter((v) => v.length > 0);
 		const active = lines.length <= 1;
 
-		for (let line of lines) {
-			line = line.trim();
-
-			if (line.length <= 1) {
-				continue;
-			}
-
+		for (const line of lines) {
 			await new Promise((resolve) => {
 				chrome.runtime.sendMessage({
 					action: "parseCatalog",
