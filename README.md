@@ -29,3 +29,10 @@
 ---
 
 ![extensions](https://github.com/Nikita55612/OzonReviewParserExtension/blob/main/screenshots/Screenshot3.png)
+
+
+## Лицензия
+
+© 2025 nlkli.  
+Код распространяется под лицензией MIT.  
+Вы можете использовать, изменять и распространять его, но **обязательно сохраняйте указание моего авторства**.
